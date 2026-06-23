@@ -3619,11 +3619,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj",
+      "projectUniqueName": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj",
       "projectName": "AutoInsurance.CustomerService",
-      "projectPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj",
+      "projectPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\obj\\",
+      "outputPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.CustomerService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

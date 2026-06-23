@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj": {}
+    "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj": {}
   },
   "projects": {
-    "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj": {
+    "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj",
+        "projectUniqueName": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj",
         "projectName": "AutoInsurance.AuthService",
-        "projectPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj",
+        "projectPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\obj\\",
+        "outputPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.AuthService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

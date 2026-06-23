@@ -4178,11 +4178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\AutoInsurance.Tests.csproj",
+      "projectUniqueName": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.Tests\\AutoInsurance.Tests.csproj",
       "projectName": "AutoInsurance.Tests",
-      "projectPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\AutoInsurance.Tests.csproj",
+      "projectPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.Tests\\AutoInsurance.Tests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\obj\\",
+      "outputPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4205,20 +4205,20 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj": {
-              "projectPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj"
+            "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj": {
+              "projectPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj"
             },
-            "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj": {
-              "projectPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj"
+            "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj": {
+              "projectPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj"
             },
-            "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj": {
-              "projectPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj"
+            "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj": {
+              "projectPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj"
             },
-            "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj": {
-              "projectPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj"
+            "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj": {
+              "projectPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj"
             },
-            "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj": {
-              "projectPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj"
+            "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj": {
+              "projectPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj"
             }
           }
         }

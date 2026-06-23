@@ -3538,11 +3538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj",
+      "projectUniqueName": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj",
       "projectName": "AutoInsurance.VehicleService",
-      "projectPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj",
+      "projectPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\obj\\",
+      "outputPath": "C:\\Stuff\\AutomobileInsurance\\AutoInsurance.VehicleService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
