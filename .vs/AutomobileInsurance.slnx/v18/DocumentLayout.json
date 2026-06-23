@@ -1,0 +1,1704 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.tests\\claimservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|solutionrelative:autoinsurance.tests\\claimservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.tests\\autoinsurance.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|solutionrelative:autoinsurance.tests\\autoinsurance.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973524F-0329-4066-9650-308321ED7DC8}|AutoInsurance.ApiGateway\\AutoInsurance.ApiGateway.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2973524F-0329-4066-9650-308321ED7DC8}|AutoInsurance.ApiGateway\\AutoInsurance.ApiGateway.csproj|solutionrelative:autoinsurance.apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\services\\implementations\\claimservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\services\\implementations\\claimservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\services\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\services\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\repositories\\implementations\\claimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\repositories\\implementations\\claimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\repositories\\interfaces\\iclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\repositories\\interfaces\\iclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\apiclients\\implementations\\policyapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\apiclients\\implementations\\policyapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\apiclients\\interfaces\\ipolicyapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\apiclients\\interfaces\\ipolicyapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\data\\claimdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\data\\claimdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\data\\claimdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\data\\claimdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\dtos\\claimresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\dtos\\claimresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\dtos\\claimupdatestatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\dtos\\claimupdatestatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\dtos\\claimcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\dtos\\claimcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\dtos\\policydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\dtos\\policydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.claimservice\\autoinsurance.claimservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7249E1F2-99B7-48F4-88CD-683C6BC4CC38}|AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj|solutionrelative:autoinsurance.claimservice\\autoinsurance.claimservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973524F-0329-4066-9650-308321ED7DC8}|AutoInsurance.ApiGateway\\AutoInsurance.ApiGateway.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2973524F-0329-4066-9650-308321ED7DC8}|AutoInsurance.ApiGateway\\AutoInsurance.ApiGateway.csproj|solutionrelative:autoinsurance.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.tests\\policyservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|solutionrelative:autoinsurance.tests\\policyservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.tests\\vehicleservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|solutionrelative:autoinsurance.tests\\vehicleservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.tests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|solutionrelative:autoinsurance.tests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.tests\\customerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35DCF212-5D43-4956-913D-8ACFDE08CED7}|AutoInsurance.Tests\\AutoInsurance.Tests.csproj|solutionrelative:autoinsurance.tests\\customerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\services\\implementations\\authservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\services\\implementations\\authservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\data\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\data\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\services\\implementations\\policyservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\services\\implementations\\policyservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\dtos\\policyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\dtos\\policyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\services\\implementations\\customerservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\services\\implementations\\customerservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\dtos\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\dtos\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\apiclients\\implementations\\vehicleapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\apiclients\\implementations\\vehicleapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\apiclients\\implementations\\customerapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\apiclients\\implementations\\customerapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\apiclients\\interfaces\\ivehicleapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\apiclients\\interfaces\\ivehicleapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\apiclients\\interfaces\\icustomerapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\apiclients\\interfaces\\icustomerapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\dtos\\policyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\dtos\\policyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\dtos\\policycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\dtos\\policycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\dtos\\vehiclecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\dtos\\vehiclecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\validation\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\validation\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973524F-0329-4066-9650-308321ED7DC8}|AutoInsurance.ApiGateway\\AutoInsurance.ApiGateway.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973524F-0329-4066-9650-308321ED7DC8}|AutoInsurance.ApiGateway\\AutoInsurance.ApiGateway.csproj|solutionrelative:autoinsurance.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\repositories\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\repositories\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\dtos\\requestresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\dtos\\requestresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\services\\interfaces\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\services\\interfaces\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\repositories\\implementations\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\repositories\\implementations\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\repositories\\interfaces\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\repositories\\interfaces\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\data\\policydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\data\\policydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\data\\policydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\data\\policydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.policyservice\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE12799-D07F-4BDC-A9E0-EDE56467E0A6}|AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj|solutionrelative:autoinsurance.policyservice\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\services\\implementations\\vehicleservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\services\\implementations\\vehicleservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\services\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\services\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\repositories\\implementations\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\repositories\\implementations\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\repositories\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\repositories\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\data\\vehicledbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\data\\vehicledbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\data\\vehicledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\data\\vehicledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\dtos\\vehicleresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\dtos\\vehicleresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\dtos\\vehicleupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\dtos\\vehicleupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.vehicleservice\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F3FE9A-E43B-4B3D-AFD5-1D8DA705B666}|AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj|solutionrelative:autoinsurance.vehicleservice\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\dtos\\customerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\dtos\\customerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.customerservice\\data\\customerdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B313488-9396-4451-AD69-959312A51034}|AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj|solutionrelative:autoinsurance.customerservice\\data\\customerdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\services\\implementations\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\services\\implementations\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\services\\interfaces\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\services\\interfaces\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|c:\\stuff\\dotnet assignments\\.net apps\\automobileinsurance\\autoinsurance.authservice\\autoinsurance.authservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4D781184-1603-F004-E8A3-65562218A37A}|AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj|solutionrelative:autoinsurance.authservice\\autoinsurance.authservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 246,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoInsurance.Tests",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\AutoInsurance.Tests.csproj",
+              "RelativeDocumentMoniker": "AutoInsurance.Tests\\AutoInsurance.Tests.csproj",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\AutoInsurance.Tests.csproj",
+              "RelativeToolTip": "AutoInsurance.Tests\\AutoInsurance.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-23T04:23:14.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClaimServiceTests.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\ClaimServiceTests.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.Tests\\ClaimServiceTests.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\ClaimServiceTests.cs",
+              "RelativeToolTip": "AutoInsurance.Tests\\ClaimServiceTests.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:23:26.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-23T04:22:06.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ApiGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "AutoInsurance.ApiGateway\\ocelot.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ApiGateway\\ocelot.json",
+              "RelativeToolTip": "AutoInsurance.ApiGateway\\ocelot.json",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAWwIsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-22T06:45:19.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Program.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Program.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Program.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwHYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:21:40.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Program.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Program.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T06:59:45.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\appsettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\appsettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\appsettings.json",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-23T04:21:58.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClaimsController.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Controllers\\ClaimsController.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Controllers\\ClaimsController.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Controllers\\ClaimsController.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Controllers\\ClaimsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:13:46.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClaimService1.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Services\\Implementations\\ClaimService1.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Services\\Implementations\\ClaimService1.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Services\\Implementations\\ClaimService1.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Services\\Implementations\\ClaimService1.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:17:05.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IClaimService.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Services\\Interfaces\\IClaimService.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Services\\Interfaces\\IClaimService.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Services\\Interfaces\\IClaimService.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Services\\Interfaces\\IClaimService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:16:54.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClaimRepository.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Repositories\\Implementations\\ClaimRepository.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Repositories\\Implementations\\ClaimRepository.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Repositories\\Implementations\\ClaimRepository.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Repositories\\Implementations\\ClaimRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:16:11.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IClaimRepository.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Repositories\\Interfaces\\IClaimRepository.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Repositories\\Interfaces\\IClaimRepository.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Repositories\\Interfaces\\IClaimRepository.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Repositories\\Interfaces\\IClaimRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:16:01.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PolicyApiClient.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\ApiClients\\Implementations\\PolicyApiClient.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\ApiClients\\Implementations\\PolicyApiClient.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\ApiClients\\Implementations\\PolicyApiClient.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\ApiClients\\Implementations\\PolicyApiClient.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:12:42.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPolicyApiClient.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\ApiClients\\Interfaces\\IPolicyApiClient.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\ApiClients\\Interfaces\\IPolicyApiClient.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\ApiClients\\Interfaces\\IPolicyApiClient.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\ApiClients\\Interfaces\\IPolicyApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:12:11.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:15:09.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Middleware\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Middleware\\JwtMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:14:53.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClaimDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Data\\ClaimDbContextFactory.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Data\\ClaimDbContextFactory.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Data\\ClaimDbContextFactory.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Data\\ClaimDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:13:27.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClaimDbContext.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Data\\ClaimDbContext.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Data\\ClaimDbContext.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Data\\ClaimDbContext.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Data\\ClaimDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:12:57.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClaimResponseDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\DTOs\\ClaimResponseDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\DTOs\\ClaimResponseDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\DTOs\\ClaimResponseDto.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\DTOs\\ClaimResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:14:39.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClaimUpdateStatusDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\DTOs\\ClaimUpdateStatusDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\DTOs\\ClaimUpdateStatusDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\DTOs\\ClaimUpdateStatusDto.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\DTOs\\ClaimUpdateStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:14:23.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClaimCreateDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\DTOs\\ClaimCreateDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\DTOs\\ClaimCreateDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\DTOs\\ClaimCreateDto.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\DTOs\\ClaimCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:14:09.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PolicyDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\DTOs\\PolicyDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\DTOs\\PolicyDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\DTOs\\PolicyDto.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\DTOs\\PolicyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:14:00.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\Models\\Claim.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\Models\\Claim.cs",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\Models\\Claim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:15:27.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AutoInsurance.ClaimService",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj",
+              "RelativeDocumentMoniker": "AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj",
+              "RelativeToolTip": "AutoInsurance.ClaimService\\AutoInsurance.ClaimService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-23T04:10:36.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ApiGateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.ApiGateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ApiGateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AutoInsurance.ApiGateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-23T04:01:49.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PolicyServiceTests.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\PolicyServiceTests.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.Tests\\PolicyServiceTests.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\PolicyServiceTests.cs",
+              "RelativeToolTip": "AutoInsurance.Tests\\PolicyServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T15:19:31.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.Tests\\AuthServiceTests.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\AuthServiceTests.cs",
+              "RelativeToolTip": "AutoInsurance.Tests\\AuthServiceTests.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAmwHAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T15:00:17.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:46:28.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VehicleServiceTests.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\VehicleServiceTests.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.Tests\\VehicleServiceTests.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\VehicleServiceTests.cs",
+              "RelativeToolTip": "AutoInsurance.Tests\\VehicleServiceTests.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAUwKsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T15:16:34.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:05:10.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CustomerServiceTests.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\CustomerServiceTests.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.Tests\\CustomerServiceTests.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.Tests\\CustomerServiceTests.cs",
+              "RelativeToolTip": "AutoInsurance.Tests\\CustomerServiceTests.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAUwKEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T15:12:10.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CustomerDbContext.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Data\\CustomerDbContext.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Data\\CustomerDbContext.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Data\\CustomerDbContext.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Data\\CustomerDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:44:10.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:06:29.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthService1.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Services\\Implementations\\AuthService1.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Services\\Implementations\\AuthService1.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Services\\Implementations\\AuthService1.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Services\\Implementations\\AuthService1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:11:13.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:44:52.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Program.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Program.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Program.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Program.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAuwH0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:40:10.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Program.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Program.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Program.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Program.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAuwIoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:58:33.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Program.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Program.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Program.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T13:55:44.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-22T11:47:16.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:45:23.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:44:11.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PoliciesController.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Controllers\\PoliciesController.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Controllers\\PoliciesController.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Controllers\\PoliciesController.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Controllers\\PoliciesController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:16:21.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PolicyService1.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Services\\Implementations\\PolicyService1.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Services\\Implementations\\PolicyService1.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Services\\Implementations\\PolicyService1.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Services\\Implementations\\PolicyService1.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswHEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:25:08.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PolicyResponseDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\DTOs\\PolicyResponseDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\DTOs\\PolicyResponseDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\DTOs\\PolicyResponseDto.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\DTOs\\PolicyResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:22:52.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Services\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Services\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Services\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Services\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:47:03.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CustomerResponseDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\DTOs\\CustomerResponseDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\DTOs\\CustomerResponseDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\DTOs\\CustomerResponseDto.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\DTOs\\CustomerResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:43:43.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CustomerService1.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Services\\Implementations\\CustomerService1.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Services\\Implementations\\CustomerService1.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Services\\Implementations\\CustomerService1.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Services\\Implementations\\CustomerService1.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwFMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:47:22.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwCAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:42:39.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\DTOs\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\DTOs\\CustomerDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\DTOs\\CustomerDto.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\DTOs\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:22:01.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Models\\Customer.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Models\\Customer.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:45:27.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Middleware\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Middleware\\JwtMiddleware.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwDUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:23:10.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "VehicleApiClient.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\ApiClients\\Implementations\\VehicleApiClient.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\ApiClients\\Implementations\\VehicleApiClient.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\ApiClients\\Implementations\\VehicleApiClient.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\ApiClients\\Implementations\\VehicleApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:20:34.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CustomerApiClient.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\ApiClients\\Implementations\\CustomerApiClient.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\ApiClients\\Implementations\\CustomerApiClient.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\ApiClients\\Implementations\\CustomerApiClient.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\ApiClients\\Implementations\\CustomerApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:19:23.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IVehicleApiClient.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\ApiClients\\Interfaces\\IVehicleApiClient.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\ApiClients\\Interfaces\\IVehicleApiClient.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\ApiClients\\Interfaces\\IVehicleApiClient.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\ApiClients\\Interfaces\\IVehicleApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:19:11.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ICustomerApiClient.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\ApiClients\\Interfaces\\ICustomerApiClient.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\ApiClients\\Interfaces\\ICustomerApiClient.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\ApiClients\\Interfaces\\ICustomerApiClient.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\ApiClients\\Interfaces\\ICustomerApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:18:46.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PolicyUpdateDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\DTOs\\PolicyUpdateDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\DTOs\\PolicyUpdateDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\DTOs\\PolicyUpdateDto.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\DTOs\\PolicyUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:22:40.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PolicyCreateDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\DTOs\\PolicyCreateDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\DTOs\\PolicyCreateDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\DTOs\\PolicyCreateDto.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\DTOs\\PolicyCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:22:28.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "VehicleCreateDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\DTOs\\VehicleCreateDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\DTOs\\VehicleCreateDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\DTOs\\VehicleCreateDto.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\DTOs\\VehicleCreateDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T14:56:53.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CustomerCreateDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\DTOs\\CustomerCreateDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\DTOs\\CustomerCreateDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\DTOs\\CustomerCreateDto.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\DTOs\\CustomerCreateDto.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvwEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:43:18.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "MinimumAgeAttribute.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Validation\\MinimumAgeAttribute.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Validation\\MinimumAgeAttribute.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Validation\\MinimumAgeAttribute.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Validation\\MinimumAgeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T08:35:55.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:10:26.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.ApiGateway\\Program.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.ApiGateway\\Program.cs",
+              "RelativeToolTip": "AutoInsurance.ApiGateway\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:47:07.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Repositories\\Interfaces\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Repositories\\Interfaces\\IAuthRepository.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Repositories\\Interfaces\\IAuthRepository.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Repositories\\Interfaces\\IAuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:09:11.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Repositories\\Implementations\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Repositories\\Implementations\\AuthRepository.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Repositories\\Implementations\\AuthRepository.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Repositories\\Implementations\\AuthRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:09:36.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IPolicyService.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Services\\Interfaces\\IPolicyService.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Services\\Interfaces\\IPolicyService.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Services\\Interfaces\\IPolicyService.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Services\\Interfaces\\IPolicyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:24:57.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-22T05:01:57.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "RequestResponseDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\DTOs\\RequestResponseDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\DTOs\\RequestResponseDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\DTOs\\RequestResponseDto.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\DTOs\\RequestResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T05:38:35.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\appsettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\appsettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\appsettings.json",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-22T05:01:27.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "PolicyRepository.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Repositories\\Implementations\\PolicyRepository.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Repositories\\Implementations\\PolicyRepository.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Repositories\\Implementations\\PolicyRepository.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Repositories\\Implementations\\PolicyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:24:17.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IPolicyRepository.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Repositories\\Interfaces\\IPolicyRepository.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Repositories\\Interfaces\\IPolicyRepository.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Repositories\\Interfaces\\IPolicyRepository.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Repositories\\Interfaces\\IPolicyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:24:04.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "PolicyDbContext.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Data\\PolicyDbContext.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Data\\PolicyDbContext.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Data\\PolicyDbContext.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Data\\PolicyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:20:56.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "PolicyDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Data\\PolicyDbContextFactory.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Data\\PolicyDbContextFactory.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Data\\PolicyDbContextFactory.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Data\\PolicyDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:21:12.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "VehicleDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\DTOs\\VehicleDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\DTOs\\VehicleDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\DTOs\\VehicleDto.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\DTOs\\VehicleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:22:16.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Policy.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Models\\Policy.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.PolicyService\\Models\\Policy.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.PolicyService\\Models\\Policy.cs",
+              "RelativeToolTip": "AutoInsurance.PolicyService\\Models\\Policy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:23:22.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\appsettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\appsettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\appsettings.json",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-21T15:40:28.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Repositories\\Implementations\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Repositories\\Implementations\\VehicleRepository.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Repositories\\Implementations\\VehicleRepository.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Repositories\\Implementations\\VehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:06:45.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "IVehicleService.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Services\\Interfaces\\IVehicleService.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Services\\Interfaces\\IVehicleService.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Services\\Interfaces\\IVehicleService.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Services\\Interfaces\\IVehicleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:07:19.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "VehicleService1.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Services\\Implementations\\VehicleService1.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Services\\Implementations\\VehicleService1.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Services\\Implementations\\VehicleService1.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Services\\Implementations\\VehicleService1.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:07:31.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Controllers\\VehicleController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAEBdwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T14:55:42.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-21T15:40:57.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Repositories\\Interfaces\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Repositories\\Interfaces\\IVehicleRepository.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Repositories\\Interfaces\\IVehicleRepository.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Repositories\\Interfaces\\IVehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:06:35.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Middleware\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Middleware\\JwtMiddleware.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T14:57:59.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "VehicleDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Data\\VehicleDbContextFactory.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Data\\VehicleDbContextFactory.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Data\\VehicleDbContextFactory.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Data\\VehicleDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T14:57:47.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "VehicleDbContext.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Data\\VehicleDbContext.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Data\\VehicleDbContext.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Data\\VehicleDbContext.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Data\\VehicleDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T14:57:30.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "VehicleResponseDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\DTOs\\VehicleResponseDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\DTOs\\VehicleResponseDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\DTOs\\VehicleResponseDto.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\DTOs\\VehicleResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T14:57:17.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "VehicleUpdateDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\DTOs\\VehicleUpdateDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\DTOs\\VehicleUpdateDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\DTOs\\VehicleUpdateDto.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\DTOs\\VehicleUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T14:57:05.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.VehicleService\\Models\\Vehicle.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.VehicleService\\Models\\Vehicle.cs",
+              "RelativeToolTip": "AutoInsurance.VehicleService\\Models\\Vehicle.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:05:55.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Repositories\\Implementations\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Repositories\\Implementations\\CustomerRepository.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Repositories\\Implementations\\CustomerRepository.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Repositories\\Implementations\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:46:24.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\appsettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\appsettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\appsettings.json",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAABhwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-21T14:30:03.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "CustomerUpdateDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\DTOs\\CustomerUpdateDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\DTOs\\CustomerUpdateDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\DTOs\\CustomerUpdateDto.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\DTOs\\CustomerUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:43:30.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:45:59.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Middleware\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Middleware\\JwtMiddleware.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:48:05.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "CustomerDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Data\\CustomerDbContextFactory.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.CustomerService\\Data\\CustomerDbContextFactory.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.CustomerService\\Data\\CustomerDbContextFactory.cs",
+              "RelativeToolTip": "AutoInsurance.CustomerService\\Data\\CustomerDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:45:08.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-21T06:59:10.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\appsettings.json",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\appsettings.json",
+              "RelativeToolTip": "AutoInsurance.AuthService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-21T06:58:31.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "IJwtTokenService.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Services\\Interfaces\\IJwtTokenService.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Services\\Interfaces\\IJwtTokenService.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Services\\Interfaces\\IJwtTokenService.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Services\\Interfaces\\IJwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:10:47.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Services\\Implementations\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Services\\Implementations\\JwtTokenService.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Services\\Implementations\\JwtTokenService.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Services\\Implementations\\JwtTokenService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:11:25.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\DTOs\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\DTOs\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:06:17.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Data\\AuthDbContext.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Data\\AuthDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:06:46.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Models\\Role.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Models\\Role.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:07:59.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Models\\UserRole.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:08:07.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\Models\\User.cs",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\Models\\User.cs",
+              "RelativeToolTip": "AutoInsurance.AuthService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T07:07:53.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "AutoInsurance.AuthService.http",
+              "DocumentMoniker": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.http",
+              "RelativeDocumentMoniker": "AutoInsurance.AuthService\\AutoInsurance.AuthService.http",
+              "ToolTip": "C:\\Stuff\\DotNet Assignments\\.Net Apps\\AutomobileInsurance\\AutoInsurance.AuthService\\AutoInsurance.AuthService.http",
+              "RelativeToolTip": "AutoInsurance.AuthService\\AutoInsurance.AuthService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-20T07:05:43.084Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

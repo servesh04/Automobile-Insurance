@@ -1,0 +1,6 @@
+@AutoInsurance.AuthService_HostAddress = http://localhost:5200
+
+GET {{AutoInsurance.AuthService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

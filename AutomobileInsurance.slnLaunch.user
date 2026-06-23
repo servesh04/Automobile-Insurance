@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "AutoInsurance.AuthService\\AutoInsurance.AuthService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AutoInsurance.CustomerService\\AutoInsurance.CustomerService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AutoInsurance.VehicleService\\AutoInsurance.VehicleService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AutoInsurance.PolicyService\\AutoInsurance.PolicyService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

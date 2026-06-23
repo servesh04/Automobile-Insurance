@@ -1,0 +1,6 @@
+@AutoInsurance.ClaimService_HostAddress = http://localhost:5192
+
+GET {{AutoInsurance.ClaimService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

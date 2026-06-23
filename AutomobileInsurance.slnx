@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="AutoInsurance.ApiGateway/AutoInsurance.ApiGateway.csproj" Id="2973524f-0329-4066-9650-308321ed7dc8" />
+  <Project Path="AutoInsurance.AuthService/AutoInsurance.AuthService.csproj" />
+  <Project Path="AutoInsurance.ClaimService/AutoInsurance.ClaimService.csproj" Id="7249e1f2-99b7-48f4-88cd-683c6bc4cc38" />
+  <Project Path="AutoInsurance.CustomerService/AutoInsurance.CustomerService.csproj" Id="7b313488-9396-4451-ad69-959312a51034" />
+  <Project Path="AutoInsurance.PolicyService/AutoInsurance.PolicyService.csproj" Id="abe12799-d07f-4bdc-a9e0-ede56467e0a6" />
+  <Project Path="AutoInsurance.Tests/AutoInsurance.Tests.csproj" Id="35dcf212-5d43-4956-913d-8acfde08ced7" />
+  <Project Path="AutoInsurance.VehicleService/AutoInsurance.VehicleService.csproj" Id="b9f3fe9a-e43b-4b3d-afd5-1d8da705b666" />
+</Solution>

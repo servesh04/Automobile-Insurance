@@ -1,0 +1,243 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "AutoInsurance.VehicleService",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Vehicles": {
+      "get": {
+        "tags": [
+          "Vehicles"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Vehicles"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VehicleCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VehicleCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VehicleCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Vehicles/{id}": {
+      "get": {
+        "tags": [
+          "Vehicles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Vehicles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VehicleUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VehicleUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VehicleUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Vehicles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "VehicleCreateDto": {
+        "required": [
+          "color",
+          "fuelType",
+          "make",
+          "model",
+          "registrationNumber",
+          "vehicleIdentificationNumber",
+          "year"
+        ],
+        "type": "object",
+        "properties": {
+          "make": {
+            "maxLength": 50,
+            "minLength": 2,
+            "type": "string"
+          },
+          "model": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "year": {
+            "maximum": 2027,
+            "minimum": 1980,
+            "type": "integer",
+            "format": "int32"
+          },
+          "vehicleIdentificationNumber": {
+            "maxLength": 17,
+            "minLength": 17,
+            "pattern": "^[A-HJ-NPR-Z0-9]{17}$",
+            "type": "string"
+          },
+          "registrationNumber": {
+            "maxLength": 20,
+            "minLength": 4,
+            "type": "string"
+          },
+          "color": {
+            "maxLength": 30,
+            "minLength": 0,
+            "pattern": "^[a-zA-Z\\s]+$",
+            "type": "string"
+          },
+          "fuelType": {
+            "minLength": 1,
+            "pattern": "^(Petrol|Diesel|Electric|Hybrid|CNG)$",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VehicleUpdateDto": {
+        "type": "object",
+        "properties": {
+          "make": {
+            "type": "string",
+            "nullable": true
+          },
+          "model": {
+            "type": "string",
+            "nullable": true
+          },
+          "year": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vehicleIdentificationNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "registrationNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "color": {
+            "type": "string",
+            "nullable": true
+          },
+          "fuelType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Paste your JWT here (no 'Bearer ' prefix needed).",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Vehicles"
+    }
+  ]
+}
