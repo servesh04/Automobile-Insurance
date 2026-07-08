@@ -18,3 +18,8 @@ obj/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Extra documentation files
+AutomobileInsuranceSystem*.md
+Demo_Script_and_Workflow.md
+AutoInsurance_API_Endpoints.md
