@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace AutoInsurance.PolicyService.DTOs;
 
@@ -17,8 +17,7 @@ public class PolicyCreateDto : IValidatableObject
         ErrorMessage = "Coverage type must be one of: ThirdParty, Comprehensive, Collision.")]
     public string CoverageType { get; set; } = string.Empty;
 
-    [Required(ErrorMessage = "Premium amount is required.")]
-    [Range(0.01, double.MaxValue, ErrorMessage = "Premium amount must be greater than zero.")]
+    [Range(0.00, double.MaxValue, ErrorMessage = "Premium amount cannot be negative.")]
     public decimal PremiumAmount { get; set; }
 
     [Required(ErrorMessage = "Start date is required.")]
@@ -29,6 +28,14 @@ public class PolicyCreateDto : IValidatableObject
 
     public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
     {
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        if (StartDate < today)
+        {
+            yield return new ValidationResult(
+                "Start date must be today or in the future.",
+                new[] { nameof(StartDate) });
+        }
+
         if (EndDate <= StartDate)
         {
             yield return new ValidationResult(

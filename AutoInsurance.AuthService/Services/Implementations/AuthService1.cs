@@ -1,4 +1,4 @@
-﻿using AutoInsurance.AuthService.DTOs;
+using AutoInsurance.AuthService.DTOs;
 using AutoInsurance.AuthService.Models;
 using AutoInsurance.AuthService.Repositories.Interfaces;
 using AutoInsurance.AuthService.Services.Interfaces;
@@ -9,11 +9,13 @@ namespace AutoInsurance.AuthService.Services.Implementations
     {
         private readonly IAuthRepository _authRepository;
         private readonly IJwtTokenService _jwtTokenService;
+        private readonly INotificationApiClient _notificationApiClient;
 
-        public AuthService1(IAuthRepository authRepository, IJwtTokenService jwtTokenService)
+        public AuthService1(IAuthRepository authRepository, IJwtTokenService jwtTokenService, INotificationApiClient notificationApiClient)
         {
             _authRepository = authRepository;
             _jwtTokenService = jwtTokenService;
+            _notificationApiClient = notificationApiClient;
         }
 
         public async Task<LoginResponseDto> RegisterAsync(RegisterRequestDto request)
@@ -71,6 +73,51 @@ namespace AutoInsurance.AuthService.Services.Implementations
                 FullName = user.FullName,
                 Roles = roles
             };
+        }
+
+        public async Task<bool> ForgotPasswordAsync(string email)
+        {
+            var user = await _authRepository.GetUserByEmailAsync(email);
+            if (user == null)
+            {
+                // Always return true to prevent email enumeration attacks
+                return true;
+            }
+
+            var token = Guid.NewGuid().ToString("N");
+            user.PasswordResetToken = token;
+            user.PasswordResetTokenExpiry = DateTime.UtcNow.AddMinutes(15);
+
+            await _authRepository.UpdateUserAsync(user);
+
+            var resetLink = $"http://localhost:3001/reset-password?token={token}&email={Uri.EscapeDataString(email)}";
+            var body = $"<p>Hello {user.FullName},</p><p>You requested a password reset. Click the link below to reset it:</p><p><a href='{resetLink}'>Reset Password</a></p><p>If you didn't request this, you can safely ignore this email.</p>";
+
+            await _notificationApiClient.SendEmailAsync(user.Email, "Password Reset Request", body);
+
+            return true;
+        }
+
+        public async Task<bool> ResetPasswordAsync(string email, string token, string newPassword)
+        {
+            var user = await _authRepository.GetUserByEmailAsync(email);
+            if (user == null)
+            {
+                return false;
+            }
+
+            if (user.PasswordResetToken != token || user.PasswordResetTokenExpiry < DateTime.UtcNow)
+            {
+                return false;
+            }
+
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
+            user.PasswordResetToken = null;
+            user.PasswordResetTokenExpiry = null;
+
+            await _authRepository.UpdateUserAsync(user);
+
+            return true;
         }
     }
 }

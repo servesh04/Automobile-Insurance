@@ -1,4 +1,4 @@
-﻿namespace AutoInsurance.PolicyService.DTOs;
+namespace AutoInsurance.PolicyService.DTOs;
 
 public class PolicyResponseDto
 {
@@ -14,5 +14,6 @@ public class PolicyResponseDto
     public DateOnly StartDate { get; set; }
     public DateOnly EndDate { get; set; }
     public string PolicyStatus { get; set; } = string.Empty;
+    public string? DocumentUrl { get; set; }
     public DateTime CreatedAt { get; set; }
 }

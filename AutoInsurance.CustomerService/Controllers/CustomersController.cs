@@ -1,4 +1,4 @@
-﻿using System.Security.Claims;
+using System.Security.Claims;
 using AutoInsurance.CustomerService.DTOs;
 using AutoInsurance.CustomerService.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -36,6 +36,17 @@ public class CustomersController : ControllerBase
         return Ok(customer);
     }
 
+    [HttpGet("my-profile")]
+    [Authorize]
+    public async Task<IActionResult> GetMyProfile()
+    {
+        var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+        var all = await _service.GetAllAsync();
+        var customer = all.FirstOrDefault(c => c.UserId == userId);
+        if (customer is null) return NotFound();
+        return Ok(customer);
+    }
+
     [HttpPost]
     [Authorize]   // any authenticated user (Admin, Agent, or a self-registering Customer)
     public async Task<IActionResult> Create([FromBody] CustomerCreateDto dto)
@@ -54,7 +65,7 @@ public class CustomersController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,Agent")]
     public async Task<IActionResult> Delete(int id)
     {
         var deleted = await _service.DeleteAsync(id);

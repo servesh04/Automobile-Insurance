@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using AutoInsurance.CustomerService.Data;
 using AutoInsurance.CustomerService.Middleware;
 using AutoInsurance.CustomerService.Repositories.Implementations;
@@ -40,10 +41,13 @@ public class Program
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = key,
                     ValidateLifetime = true,
-                    ClockSkew = TimeSpan.Zero
+                    ClockSkew = TimeSpan.Zero,
+                    RoleClaimType = ClaimTypes.Role,
+                    NameClaimType = ClaimTypes.NameIdentifier
                 };
             });
 
+        builder.Services.AddCors(options => { options.AddPolicy("AllowAll", policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()); });
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
 
@@ -119,14 +123,14 @@ public class Program
             await response.WriteAsync(JsonSerializer.Serialize(new { success = false, message }));
         });
 
+        app.UseCors("AllowAll");
         app.UseHttpsRedirection();
         app.UseAuthentication();
-        app.UseMiddleware<JwtMiddleware>();
         app.UseAuthorization();
         app.MapControllers();
+        app.UseCors("AllowAll");
         app.UseHttpsRedirection();
         app.UseAuthentication();
-        app.UseMiddleware<JwtMiddleware>();   
         app.UseAuthorization();
         app.MapControllers();
 

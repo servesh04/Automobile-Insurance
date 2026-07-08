@@ -1,8 +1,9 @@
-﻿namespace AutoInsurance.VehicleService.DTOs;
+namespace AutoInsurance.VehicleService.DTOs;
 
 public class VehicleResponseDto
 {
     public int VehicleId { get; set; }
+    public string Category { get; set; } = string.Empty;
     public string Make { get; set; } = string.Empty;
     public string Model { get; set; } = string.Empty;
     public int Year { get; set; }

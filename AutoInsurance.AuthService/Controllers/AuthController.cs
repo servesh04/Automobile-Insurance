@@ -1,4 +1,4 @@
-﻿using AutoInsurance.AuthService.DTOs;
+using AutoInsurance.AuthService.DTOs;
 using AutoInsurance.AuthService.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,7 +24,9 @@ namespace AutoInsurance.AuthService.Controllers
             return Ok(response);
         }
 
-        [HttpPost("login")]
+
+
+    [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDto request)
         {
             var response = await _authService.LoginAsync(request);
@@ -33,6 +35,24 @@ namespace AutoInsurance.AuthService.Controllers
                 return Unauthorized(response);
             }
             return Ok(response);
+        }
+
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordRequestDto request)
+        {
+            var result = await _authService.ForgotPasswordAsync(request.Email);
+            return Ok(new { success = true, message = "If the email is registered, a reset link has been sent." });
+        }
+
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequestDto request)
+        {
+            var result = await _authService.ResetPasswordAsync(request.Email, request.Token, request.NewPassword);
+            if (!result)
+            {
+                return BadRequest(new { success = false, message = "Invalid or expired token." });
+            }
+            return Ok(new { success = true, message = "Password reset successfully." });
         }
     }
 }

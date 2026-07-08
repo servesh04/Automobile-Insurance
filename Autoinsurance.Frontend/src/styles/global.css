@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+/* ============================================================
+   Bootstrap 5 — Custom Earthy Palette Overrides
+   These override Bootstrap's default CSS variables so every
+   Bootstrap utility class (bg-primary, btn-primary, etc.)
+   automatically uses our colour palette without any extra CSS.
+   ============================================================ */
+:root {
+  /* Brand Red — replaces Bootstrap blue as the primary colour */
+  --bs-primary:           #A63D2F;
+  --bs-primary-rgb:       166, 61, 47;
+
+  /* Muted Brown — replaces Bootstrap grey secondary */
+  --bs-secondary:         #8C6E5D;
+  --bs-secondary-rgb:     140, 110, 93;
+
+  /* Deep Brown — replaces Bootstrap near-black dark */
+  --bs-dark:              #3D2B1F;
+  --bs-dark-rgb:          61, 43, 31;
+
+  /* Light Cream — replaces Bootstrap near-white light */
+  --bs-light:             #F5EDE0;
+  --bs-light-rgb:         245, 237, 224;
+
+  /* Gold — replaces Bootstrap yellow warning */
+  --bs-warning:           #F4A828;
+  --bs-warning-rgb:       244, 168, 40;
+
+  /* Page / body background */
+  --bs-body-bg:           #FDFAF6;
+  --bs-body-color:        #3D2B1F;
+  --bs-body-font-family:  'DM Sans', sans-serif;
+
+  /* Border / divider colour */
+  --bs-border-color:      #E8D5B0;
+
+  /* Links */
+  --bs-link-color:        #A63D2F;
+  --bs-link-hover-color:  #8B3325;
+
+  /* btn-primary text stays white */
+  --bs-btn-color:         #ffffff;
+}
+
+/* Ensure Bootstrap button variants pick up the override */
+.btn-primary {
+  --bs-btn-bg:            #A63D2F;
+  --bs-btn-border-color:  #A63D2F;
+  --bs-btn-hover-bg:      #8B3325;
+  --bs-btn-hover-border-color: #8B3325;
+  --bs-btn-active-bg:     #7A2D1E;
+  --bs-btn-color:         #ffffff;
+  --bs-btn-hover-color:   #ffffff;
+  --bs-btn-active-color:  #ffffff;
+}
+
+.btn-outline-primary {
+  --bs-btn-color:         #A63D2F;
+  --bs-btn-border-color:  #A63D2F;
+  --bs-btn-hover-bg:      #A63D2F;
+  --bs-btn-hover-border-color: #A63D2F;
+  --bs-btn-hover-color:   #ffffff;
+  --bs-btn-active-bg:     #8B3325;
+  --bs-btn-active-border-color: #8B3325;
+}
+
+/* Form focus ring uses Brand Red */
+.form-control:focus,
+.form-select:focus {
+  border-color: #A63D2F !important;
+  box-shadow: 0 0 0 0.2rem rgba(166, 61, 47, 0.2) !important;
+}
+
+/* Serif utility class for DM Serif Display headings */
+.font-serif {
+  font-family: 'DM Serif Display', serif !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* from design export — used by MyPolicy card */
+@keyframes cardFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* from design export — Active status dot on MyPolicy */
+@keyframes pulseDot {
+  0% {
+    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.55);
+  }
+
+  70% {
+    box-shadow: 0 0 0 6px rgba(52, 211, 153, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0);
+  }
+}
+
+/* from design export — Toast notification */
+@keyframes toastIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-fade-up {
+  animation: cardFadeUp 400ms ease-out both;
+}
+
+.pulse-dot {
+  animation: pulseDot 2s infinite;
+}
+
+.toast-in {
+  animation: toastIn 0.2s ease-out;
+}

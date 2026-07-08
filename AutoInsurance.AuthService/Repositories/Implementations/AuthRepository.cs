@@ -1,4 +1,4 @@
-﻿using AutoInsurance.AuthService.Models;
+using AutoInsurance.AuthService.Models;
 using AutoInsurance.AuthService.Data;
 using AutoInsurance.AuthService.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -30,6 +30,18 @@ namespace AutoInsurance.AuthService.Repositories.Implementations
                 .Include(u => u.UserRoles)
                 .ThenInclude(ur => ur.Role)
                 .FirstOrDefaultAsync(u => u.UserName == username && u.IsActive);
+        }
+
+        public async Task<User?> GetUserByEmailAsync(string email)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(u => u.Email == email && u.IsActive);
+        }
+
+        public async Task UpdateUserAsync(User user)
+        {
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
         }
     }
 }

@@ -22,6 +22,20 @@ namespace AutoInsurance.AuthService
             builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
             builder.Services.AddScoped<IAuthService, AuthService1>();
 
+            builder.Services.AddHttpClient<INotificationApiClient, NotificationApiClient>(client =>
+            {
+                client.BaseAddress = new Uri(builder.Configuration["ServiceUrls:NotificationService"] ?? "https://localhost:7006");
+            });
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader();
+                });
+            });
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -58,6 +72,7 @@ namespace AutoInsurance.AuthService
                 await response.WriteAsync(JsonSerializer.Serialize(new { success = false, message }));
             });
 
+            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();

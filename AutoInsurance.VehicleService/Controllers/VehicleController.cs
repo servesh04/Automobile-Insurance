@@ -1,4 +1,4 @@
-﻿using AutoInsurance.VehicleService.DTOs;
+using AutoInsurance.VehicleService.DTOs;
 using AutoInsurance.VehicleService.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +26,7 @@ public class VehiclesController : ControllerBase
     }
 
     [HttpPost]
-    [Authorize(Roles = "Admin,Agent")]
+    [Authorize(Roles = "Admin,Agent,Customer")]
     public async Task<IActionResult> Create([FromBody] VehicleCreateDto dto)
     {
         var created = await _service.CreateAsync(dto);
@@ -42,7 +42,7 @@ public class VehiclesController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,Agent")]
     public async Task<IActionResult> Delete(int id)
     {
         var deleted = await _service.DeleteAsync(id);

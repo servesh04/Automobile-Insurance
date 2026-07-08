@@ -1,4 +1,4 @@
-﻿using AutoInsurance.PolicyService.ApiClients.Interfaces;
+using AutoInsurance.PolicyService.ApiClients.Interfaces;
 using AutoInsurance.PolicyService.DTOs;
 using AutoInsurance.PolicyService.Models;
 using AutoInsurance.PolicyService.Repositories.Interfaces;
@@ -16,6 +16,7 @@ public class PolicyServiceTests
     private Mock<IPolicyRepository> _repositoryMock = null!;
     private Mock<ICustomerApiClient> _customerApiClientMock = null!;
     private Mock<IVehicleApiClient> _vehicleApiClientMock = null!;
+    private Mock<INotificationApiClient> _notificationApiClientMock = null!;
     private IPolicyService _policyService = null!;
 
     [SetUp]
@@ -24,10 +25,12 @@ public class PolicyServiceTests
         _repositoryMock = new Mock<IPolicyRepository>();
         _customerApiClientMock = new Mock<ICustomerApiClient>();
         _vehicleApiClientMock = new Mock<IVehicleApiClient>();
+        _notificationApiClientMock = new Mock<INotificationApiClient>();
         _policyService = new PolicyService1(
             _repositoryMock.Object,
             _customerApiClientMock.Object,
-            _vehicleApiClientMock.Object);
+            _vehicleApiClientMock.Object,
+            _notificationApiClientMock.Object);
     }
 
     private static Policy CreateSamplePolicy(int id = 1) => new()
@@ -84,7 +87,7 @@ public class PolicyServiceTests
         result.Should().NotBeNull();
         result!.CustomerName.Should().Be("Rahul");
         result.VehicleDescription.Should().Be("2020 Toyota Camry");
-        result.PolicyStatus.Should().Be("Active");
+        result.PolicyStatus.Should().Be("ProposalSubmitted");
         result.OwnerUserId.Should().Be(25);
         _repositoryMock.Verify(r => r.AddAsync(It.IsAny<Policy>()), Times.Once);
         _repositoryMock.Verify(r => r.SaveChangesAsync(), Times.Once);

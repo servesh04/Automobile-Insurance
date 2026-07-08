@@ -1,4 +1,4 @@
-﻿namespace AutoInsurance.PolicyService.Models;
+namespace AutoInsurance.PolicyService.Models;
 
 public class Policy
 {
@@ -10,6 +10,7 @@ public class Policy
     public decimal PremiumAmount { get; set; }
     public DateOnly StartDate { get; set; }
     public DateOnly EndDate { get; set; }
-    public string PolicyStatus { get; set; } = string.Empty;   // Active / Expired / Cancelled
+    public string PolicyStatus { get; set; } = string.Empty;   // ProposalSubmitted / QuoteGenerated / Active / Expired / Cancelled
+    public string? DocumentUrl { get; set; }
     public DateTime CreatedAt { get; set; }
 }

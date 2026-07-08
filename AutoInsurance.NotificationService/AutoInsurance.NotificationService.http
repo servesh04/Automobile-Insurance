@@ -1,0 +1,6 @@
+@AutoInsurance.NotificationService_HostAddress = http://localhost:5258
+
+GET {{AutoInsurance.NotificationService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

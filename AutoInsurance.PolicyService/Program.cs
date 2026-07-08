@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using AutoInsurance.PolicyService.ApiClients.Implementations;
 using AutoInsurance.PolicyService.ApiClients.Interfaces;
 using AutoInsurance.PolicyService.Data;
@@ -38,6 +39,10 @@ public class Program
         {
             client.BaseAddress = new Uri(serviceUrls["VehicleService"]!);
         });
+        builder.Services.AddHttpClient<INotificationApiClient, NotificationApiClient>(client =>
+        {
+            client.BaseAddress = new Uri(serviceUrls["NotificationService"]!);
+        });
 
         var jwt = builder.Configuration.GetSection("JwtSettings");
         var secretKey = jwt["SecretKey"]
@@ -56,10 +61,13 @@ public class Program
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = key,
                     ValidateLifetime = true,
-                    ClockSkew = TimeSpan.Zero
+                    ClockSkew = TimeSpan.Zero,
+                    RoleClaimType = ClaimTypes.Role,
+                    NameClaimType = ClaimTypes.NameIdentifier
                 };
             });
 
+        builder.Services.AddCors(options => { options.AddPolicy("AllowAll", policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()); });
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
 
@@ -114,8 +122,6 @@ public class Program
 
         app.UseMiddleware<ExceptionHandlingMiddleware>();
 
-        app.UseMiddleware<ExceptionHandlingMiddleware>();
-
         app.UseStatusCodePages(async context =>
         {
             var response = context.HttpContext.Response;
@@ -132,14 +138,9 @@ public class Program
             await response.WriteAsync(JsonSerializer.Serialize(new { success = false, message }));
         });
 
+        app.UseCors("AllowAll");
         app.UseHttpsRedirection();
         app.UseAuthentication();
-        app.UseMiddleware<JwtMiddleware>();
-        app.UseAuthorization();
-        app.MapControllers();
-        app.UseHttpsRedirection();
-        app.UseAuthentication();
-        app.UseMiddleware<JwtMiddleware>();
         app.UseAuthorization();
         app.MapControllers();
 

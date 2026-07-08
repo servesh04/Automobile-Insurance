@@ -1,9 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace AutoInsurance.VehicleService.DTOs;
 
 public class VehicleCreateDto
 {
+    [Required(ErrorMessage = "Category is required.")]
+    [RegularExpression(@"^(Car|Truck|Motorcycle|Camper Van)$",
+        ErrorMessage = "Category must be one of: Car, Truck, Motorcycle, Camper Van.")]
+    public string Category { get; set; } = string.Empty;
+
     [Required(ErrorMessage = "Make is required.")]
     [StringLength(50, MinimumLength = 2, ErrorMessage = "Make must be between 2 and 50 characters.")]
     public string Make { get; set; } = string.Empty;

@@ -1,4 +1,4 @@
-﻿using AutoInsurance.PolicyService.ApiClients.Interfaces;
+using AutoInsurance.PolicyService.ApiClients.Interfaces;
 using AutoInsurance.PolicyService.DTOs;
 using AutoInsurance.PolicyService.Models;
 using AutoInsurance.PolicyService.Repositories.Interfaces;
@@ -11,15 +11,18 @@ public class PolicyService1 : IPolicyService
     private readonly IPolicyRepository _repository;
     private readonly ICustomerApiClient _customerApiClient;
     private readonly IVehicleApiClient _vehicleApiClient;
+    private readonly INotificationApiClient _notificationApiClient;
 
     public PolicyService1(
         IPolicyRepository repository,
         ICustomerApiClient customerApiClient,
-        IVehicleApiClient vehicleApiClient)
+        IVehicleApiClient vehicleApiClient,
+        INotificationApiClient notificationApiClient)
     {
         _repository = repository;
         _customerApiClient = customerApiClient;
         _vehicleApiClient = vehicleApiClient;
+        _notificationApiClient = notificationApiClient;
     }
 
     public async Task<List<PolicyResponseDto>> GetAllAsync()
@@ -65,7 +68,7 @@ public class PolicyService1 : IPolicyService
             PremiumAmount = dto.PremiumAmount,
             StartDate = dto.StartDate,
             EndDate = dto.EndDate,
-            PolicyStatus = "Active",
+            PolicyStatus = "ProposalSubmitted",
             CreatedAt = DateTime.UtcNow
         };
 
@@ -86,6 +89,68 @@ public class PolicyService1 : IPolicyService
         policy.EndDate = dto.EndDate;
         policy.PolicyStatus = dto.PolicyStatus;
 
+        _repository.Update(policy);
+        await _repository.SaveChangesAsync();
+        return true;
+    }
+
+    public async Task<bool> UpdateStatusAsync(int id, string status)
+    {
+        var policy = await _repository.GetByIdAsync(id);
+        if (policy is null) return false;
+
+        policy.PolicyStatus = status;
+        _repository.Update(policy);
+        await _repository.SaveChangesAsync();
+        return true;
+    }
+
+    public async Task<bool> QuoteAsync(int id, decimal premiumAmount)
+    {
+        var policy = await _repository.GetByIdAsync(id);
+        if (policy is null) return false;
+
+        policy.PremiumAmount = premiumAmount;
+        policy.PolicyStatus = "QuoteGenerated";
+        _repository.Update(policy);
+        await _repository.SaveChangesAsync();
+
+        var customer = await _customerApiClient.GetCustomerByIdAsync(policy.CustomerId);
+        if (customer != null && !string.IsNullOrEmpty(customer.Email))
+        {
+            var body = $"Dear {customer.FullName},\n\nA quote of {premiumAmount:C} has been generated for your policy (Policy Number: {policy.PolicyNumber}).\n\nPlease log in to your dashboard to complete the payment and activate your policy.";
+            await _notificationApiClient.SendEmailAsync(customer.Email, $"Policy Quote Generated - {policy.PolicyNumber}", body);
+        }
+
+        return true;
+    }
+
+    public async Task<bool> PayAsync(int id)
+    {
+        var policy = await _repository.GetByIdAsync(id);
+        if (policy is null) return false;
+
+        policy.PolicyStatus = "Active";
+        _repository.Update(policy);
+        await _repository.SaveChangesAsync();
+
+        var customer = await _customerApiClient.GetCustomerByIdAsync(policy.CustomerId);
+        if (customer != null && !string.IsNullOrEmpty(customer.Email))
+        {
+            var body = $"Dear {customer.FullName},\n\nYour payment for policy {policy.PolicyNumber} has been received. Your policy is now Active!\n\nPlease log in to your dashboard to view and download your policy document.";
+            await _notificationApiClient.SendEmailAsync(customer.Email, $"Policy Activated - {policy.PolicyNumber}", body);
+        }
+
+        return true;
+    }
+
+    public async Task<bool> UploadDocumentAsync(int id, string documentUrl)
+    {
+        var policy = await _repository.GetByIdAsync(id);
+        if (policy is null) return false;
+
+        policy.DocumentUrl = documentUrl;
+        policy.PolicyStatus = "ProposalSubmitted"; // Re-submit for review
         _repository.Update(policy);
         await _repository.SaveChangesAsync();
         return true;
@@ -122,6 +187,7 @@ public class PolicyService1 : IPolicyService
         StartDate = p.StartDate,
         EndDate = p.EndDate,
         PolicyStatus = p.PolicyStatus,
+        DocumentUrl = p.DocumentUrl,
         CreatedAt = p.CreatedAt
     };
 }

@@ -1,4 +1,4 @@
-﻿using System.Security.Claims;
+using System.Security.Claims;
 using AutoInsurance.ClaimService.DTOs;
 using AutoInsurance.ClaimService.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -14,9 +14,28 @@ public class ClaimsController : ControllerBase
 
     public ClaimsController(IClaimService service) => _service = service;
 
+    [HttpGet("debug-claims")]
+    [Authorize]
+    public IActionResult DebugClaims()
+    {
+        var claims = User.Claims.Select(c => new { c.Type, c.Value }).ToList();
+        var isAgent = User.IsInRole("Agent");
+        return Ok(new { claims, isAgent, roleClaimType = ((ClaimsIdentity)User.Identity!).RoleClaimType });
+    }
+
     [HttpGet]
     [Authorize(Roles = "Admin,Agent")]
     public async Task<IActionResult> GetAll() => Ok(await _service.GetAllAsync());
+
+    [HttpGet("my-claims")]
+    [Authorize]
+    public async Task<IActionResult> GetMyClaims()
+    {
+        var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+        var all = await _service.GetAllAsync();
+        var mine = all.Where(c => c.OwnerUserId == userId).ToList();
+        return Ok(mine);
+    }
 
     [HttpGet("{id}")]
     [Authorize(Roles = "Admin,Agent,Customer")]
@@ -51,7 +70,7 @@ public class ClaimsController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,Agent")]
     public async Task<IActionResult> Delete(int id)
     {
         var deleted = await _service.DeleteAsync(id);
