@@ -13,6 +13,21 @@ obj/
 
 # NuGet
 *.nuget.props
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# NuGet
+*.nuget.props
 *.nuget.targets
 
 # OS files
@@ -23,3 +38,27 @@ Thumbs.db
 AutomobileInsuranceSystem*.md
 Demo_Script_and_Workflow.md
 AutoInsurance_API_Endpoints.md
+
+# Node.js / Frontend
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# .NET Specific Extras
+TestResults/
+packages/
+*.log
+
+# Misc
+AutomobileInsurance.slnLaunch.user
+AutomobileInsurance.slnx
